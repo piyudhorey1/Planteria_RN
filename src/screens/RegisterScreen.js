@@ -5,7 +5,7 @@ const RegisterScreen = ({navigation}) => {
   return (
     <View>
       <Text>RegisterScreen</Text>
-      <Button title="Go to home screen" onPress={() => navigation.navigate("Home")}/>
+      <Button title="Go to home screen" onPress={() => navigation.navigate("Main")}/>
     </View>
   )
 }
